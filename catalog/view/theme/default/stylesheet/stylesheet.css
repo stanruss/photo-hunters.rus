@@ -214,6 +214,10 @@ div.required .control-label:before {
 	#cart .dropdown-menu li > div {
 		min-width: 100%;
 	}
+	.btn-xs-block{
+		display: block;
+		margin: 0 auto;
+	}
 }
 #cart .dropdown-menu li p {
 	margin: 20px 0;
