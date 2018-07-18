@@ -1,13 +1,14 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	color: #666;
+	color: #fff;
 	font-size: 12px;
 	line-height: 20px;
 	width: 100%;
+	background-color: green;
 }
 h1, h2, h3, h4, h5, h6 {
-	color: #444;
+	color: #fff;
 }
 /* default font size */
 .fa {
@@ -651,10 +652,9 @@ h2.price {
 	}
 }
 .product-thumb .button-group button {
-	width: 60%;
+	width: 100%;
 	border: none;
 	display: inline-block;
-	float: left;
 	background-color: #eee;
 	color: #888;
 	line-height: 38px;
@@ -674,12 +674,12 @@ h2.price {
 }
 @media (max-width: 1200px) {
 	.product-thumb .button-group button, .product-thumb .button-group button + button {
-		width: 33.33%;
+		width: 100%;
 	}
 }
 @media (max-width: 767px) {
 	.product-thumb .button-group button, .product-thumb .button-group button + button {
-		width: 33.33%;
+		width: 100%;
 	}
 }
 .thumbnails {
